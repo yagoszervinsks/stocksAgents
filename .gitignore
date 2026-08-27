@@ -1,0 +1,21 @@
+# Dependências e artefatos locais
+node_modules/
+dist/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Configuração local e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+.vscode/

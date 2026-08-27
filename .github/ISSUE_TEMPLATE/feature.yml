@@ -1,0 +1,27 @@
+name: Feature
+description: Propor uma melhoria com critério verificável
+title: "[feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema e público
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta e fora de escopo
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critério de aceite e validação
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Riscos, dados e integrações
