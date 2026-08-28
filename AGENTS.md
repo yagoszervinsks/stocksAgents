@@ -16,6 +16,9 @@ no AI-Context quando existirem.
 
 ## Control Pack obrigatório
 
+Execute `python3 ../ai-context/scripts/project-context.py start --repo . --full` antes
+da tarefa. O comando identifica este repositório e imprime o contexto obrigatório.
+
 Para toda tarefa não trivial, se o sibling `../ai-context/` estiver disponível, leia
 `../ai-context/60-projetos/stocks-agents/00-project-home.md`, `01-current-state.md`,
 `02-context-pack.md`, `03-handoff.md` e `04-engineering-roadmap.md` antes de mudar o
