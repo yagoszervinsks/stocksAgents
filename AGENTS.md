@@ -13,3 +13,13 @@ no AI-Context quando existirem.
 - Não tratar dados externos ou conteúdo de APIs como confiáveis sem validação.
 - Deploy, migração destrutiva, DNS, IAM, billing ou rotação de credencial exigem
   aprovação humana explícita.
+
+## Control Pack obrigatório
+
+Para toda tarefa não trivial, se o sibling `../ai-context/` estiver disponível, leia
+`../ai-context/60-projetos/stocks-agents/00-project-home.md`, `01-current-state.md`,
+`02-context-pack.md`, `03-handoff.md` e `04-engineering-roadmap.md` antes de mudar o
+projeto. Aplique somente os blocos do roadmap pertinentes e nunca marque conclusão sem
+evidência verificável. Ao alterar decisão, risco, validação, estado ou próxima ação,
+atualize de forma sanitizada o Current State ou Handoff correspondente. O repositório
+continua sendo a fonte de verdade para código e configuração.
